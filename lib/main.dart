@@ -90,7 +90,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           backgroundColor: Colors.grey.shade900,
           elevation: 0.0,
-          title: Container(
+          title: SizedBox(
             height: 38,
             child: TextField(
               style: const TextStyle(color: Colors.white),
@@ -122,7 +122,7 @@ class _MyAppState extends State<MyApp> {
                   itemBuilder: (context, index) {
                     return Slidable(
                         startActionPane: ActionPane(
-                          motion: ScrollMotion(),
+                          motion:const  ScrollMotion(),
                           children: [
                             SlidableAction(
                               onPressed: (context) {},
@@ -139,7 +139,7 @@ class _MyAppState extends State<MyApp> {
                           ],
                         ),
                         endActionPane: ActionPane(
-                          motion: ScrollMotion(),
+                          motion: const ScrollMotion(),
                           children: [
                             SlidableAction(
                               onPressed: (context) {},
@@ -177,7 +177,7 @@ class _MyAppState extends State<MyApp> {
         children: [
           Row(
             children: [
-              Container(
+              SizedBox(
                 width: 60,
                 height: 60,
                 child: ClipRRect(
@@ -192,7 +192,7 @@ class _MyAppState extends State<MyApp> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(user.name,
-                      style: TextStyle(
+                      style: const TextStyle(
                           color: Colors.white, fontWeight: FontWeight.w500)),
                   const SizedBox(
                     height: 5,
@@ -220,7 +220,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                   borderRadius: BorderRadius.circular(5),
                   color:
-                      user.isFollowedByMe ? Colors.blue[700] : Color(0xffffff),
+                      user.isFollowedByMe ? Colors.blue[700] :Color(0xffffff),
                 ),
                 child: Center(
                   child: Text(user.isFollowedByMe ? 'Unfollow' : 'Follow',
