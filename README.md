@@ -1,16 +1,28 @@
-# flutter_instagram_searchable_listview_app
+# Flutter Searchable ListView Instagram Version 
+Welcome Here! It is built using Flutter with Using Slidable Package.
 
-A new Flutter project.
+## Screenshots
 
-## Getting Started
+<p>
+  <img src="assets/screenshot/Screenshot 2024-08-07 083148.png"  />
+  <img src="assets/screenshot/Screenshot 2024-08-07 083242.png"  />
+  
+  <img src="assets/screenshot/Screenshot 2024-08-07 083242.png"  />
+</p>
 
-This project is a starting point for a Flutter application.
+## Contributing
 
-A few resources to get you started if this is your first Flutter project:
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## License
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out.
+
+- Email: [moazosama204@gmail.com](mailto:moazosama204@gmail.com)
+- LinkedIn: [Muaz Osama](https://www.linkedin.com/in/moaz-osama-161ab723a/)
+
+
